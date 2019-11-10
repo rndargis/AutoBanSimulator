@@ -2,38 +2,55 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Transmission))]
 public class Engine : MonoBehaviour
 {
-    private float targetTorque = 0.0f;
+    private float targetRpm = 0.0f;
     private float throttle = 0.0f;
     public  float maxTorque  = 350.0f;
-    private float currTorque = 0.0f;
+    private float currRpm = 0.0f;
+    public  float  maxRpm = 7000.0f;
+    private float currTorque;
+    private float minRpm = 700.0f;
     public float Throttle { get => throttle;
         set 
         {
             throttle = Mathf.Clamp(value, 0.0f, 1.0f) ;
-            targetTorque = throttle * maxTorque;
+            targetRpm = throttle * maxRpm;
         }
     }
 
-    private Differantial[] diff;
+    public Transmission trans;
 
     private void Awake()
     {
-       diff = GetComponentsInChildren<Differantial>();
+       trans = GetComponent<Transmission>();
     }
     // Update is called once per frame
 
     private void updateTorque() 
     {
-        if (currTorque < targetTorque)
+
+        currRpm = trans.rpm;
+
+
+        if (currRpm < targetRpm)
         {
-            currTorque = Mathf.Clamp(currTorque + throttle * Time.deltaTime * maxTorque, 0.0f, targetTorque);
+            currTorque = maxTorque;//Mathf.Clamp((maxRpm-currRpm)/maxRpm * throttle * maxTorque, 0.0f, targetRpm);
         }
         else 
         {
-            currTorque = Mathf.Clamp(currTorque - (1.0f-throttle) * Time.deltaTime * maxTorque, targetTorque,currTorque);
+            currTorque = -maxTorque;//Mathf.Clamp((currRpm / maxRpm - throttle) *  maxTorque / 5, targetRpm, currRpm);
         }
+
+        if (maxRpm <= currRpm)
+        {
+            trans.CurrGear++;
+        } else if (trans.CurrGear != 0 && currRpm >= minRpm) 
+        {
+            trans.CurrGear--;
+        }
+
          
             
     }  
@@ -42,13 +59,10 @@ public class Engine : MonoBehaviour
     void Update()
     {
         //clamp in 
-        if (currTorque != targetTorque)
+        if (currRpm != targetRpm)
         {
             updateTorque();
-            foreach (var d in diff)
-            {
-                d.InputTorque = currTorque;
-            }
+            trans.setInputTorque(currTorque);
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+
 
 [RequireComponent(typeof(Axle))]
 //currently behave like a locked diff
@@ -10,6 +12,7 @@ public class Differantial : MonoBehaviour
     private Axle axle;
     private float inputTorque = 0.0f;
     public float gearRatio = 1.0f;
+    public float rpm { get => axle.Wheels.Average(x => x.rpm)/gearRatio; }
     public float InputTorque { get => inputTorque;
         set
         {
