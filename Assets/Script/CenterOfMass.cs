@@ -6,13 +6,16 @@ using UnityEngine;
 
 public class CenterOfMass : MonoBehaviour
 {
-    public Rigidbody Rb;
+    public Rigidbody Rb ;
     // Start is called before the first frame update
     private void Awake()
     {
-
-        var pos = transform.localPosition;
-        Rb.centerOfMass = pos;
+        if (Rb == null)
+        {
+            Rb = GetComponentInParent<Rigidbody>();
+        }
+        var pos = transform.position;
+        Rb.centerOfMass = Rb.transform.InverseTransformPoint(pos);
     }
 
     // Update is called once per frame
