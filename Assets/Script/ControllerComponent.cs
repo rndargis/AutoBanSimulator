@@ -4,7 +4,7 @@
 public class ControllerComponent : MonoBehaviour
 {
     public int PlayerNumber;
-    public int ControllerNumber;
+    public int ControllerNumber = 0;
     //public string[] ControllerAssigned;
     private GameObject ControllerManager;
     private ControllerManagerComponent controllerManagerComponent;
