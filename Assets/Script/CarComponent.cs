@@ -20,8 +20,16 @@ public class CarComponent : MonoBehaviour
 
     public void setBreaksThrottle(float throttle) 
     {
-        foreach (Axle a in axles) {
-            a.applyBreak(throttle);
+        if (axles[0].Wheels[0].rpm < 20)
+        {
+            foreach (Axle a in axles)
+            {
+                a.applyBreak(throttle);
+            }
+        }
+        else {
+            engine.trans.toggleReverse();
+            setGazThrottle(throttle);        
         }
     }
 
