@@ -166,7 +166,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 51.479923
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
@@ -179,8 +178,6 @@ PrefabInstance:
 =======
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
-=======
->>>>>>> parent of 419aa26... Car control overall (AI)
       value: 567
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
@@ -191,9 +188,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 43.8
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 419aa26... Car control overall (AI)
-=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
@@ -238,11 +232,7 @@ PrefabInstance:
       propertyPath: m_Enabled
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 1
-=======
-      value: 0
->>>>>>> parent of 419aa26... Car control overall (AI)
 =======
       value: 0
 >>>>>>> parent of 419aa26... Car control overall (AI)
@@ -538,7 +528,6 @@ GameObject:
   m_PrefabInstance: {fileID: 1364382470}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &487809613
 MonoBehaviour:
@@ -551,9 +540,6 @@ MonoBehaviour:
 =======
   m_PrefabAsset: {fileID: 0}
 >>>>>>> parent of 419aa26... Car control overall (AI)
-=======
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 419aa26... Car control overall (AI)
 --- !u!114 &487809613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,9 +547,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 419aa26... Car control overall (AI)
-=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
@@ -584,10 +567,7 @@ MonoBehaviour:
   ButtonA: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 --- !u!1 &501222287
@@ -751,11 +731,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 77.062004, y: 2.232, z: -42.803}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!1 &843138390
 =======
-=======
->>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 --- !u!1 &725090892
@@ -932,10 +909,7 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 --- !u!1 &877681926 stripped
@@ -1234,9 +1208,6 @@ MeshFilter:
 --- !u!1001 &1364382470
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 PrefabInstance:
@@ -1250,7 +1221,6 @@ PrefabInstance:
       value: Interceptor
       objectReference: {fileID: 0}
     - target: {fileID: 115512, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-<<<<<<< HEAD
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
@@ -1506,136 +1476,6 @@ PrefabInstance:
 >>>>>>> parent of 419aa26... Car control overall (AI)
       objectReference: {fileID: 0}
     - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 341.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalPosition.z
-<<<<<<< HEAD
-      value: 100.3
-=======
-      value: -47.1
->>>>>>> parent of 419aa26... Car control overall (AI)
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 111398, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 104636, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 126268, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 139396, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5235239235003563718, guid: 7be733fca5977484eab72a8eca73b1b2,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3441317863505790765, guid: 7be733fca5977484eab72a8eca73b1b2,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4411998330755317335, guid: 7be733fca5977484eab72a8eca73b1b2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8237218906328989824, guid: 7be733fca5977484eab72a8eca73b1b2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 950149770048113316, guid: 7be733fca5977484eab72a8eca73b1b2,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8810663152151154159, guid: 7be733fca5977484eab72a8eca73b1b2,
-=======
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8472391063131694968, guid: 7be733fca5977484eab72a8eca73b1b2,
->>>>>>> parent of 419aa26... Car control overall (AI)
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-<<<<<<< HEAD
-    - target: {fileID: 8532957547389565481, guid: 7be733fca5977484eab72a8eca73b1b2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
---- !u!1001 &1404601984
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
-      propertyPath: m_Name
-      value: CarWaypointBased
-      objectReference: {fileID: 0}
-    - target: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 529.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
-=======
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 538.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
->>>>>>> parent of 419aa26... Car control overall (AI)
       propertyPath: m_LocalPosition.y
       value: 341.9
       objectReference: {fileID: 0}
@@ -2505,95 +2345,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
-<<<<<<< HEAD
   m_RootOrder: 10
-=======
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1726290674
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1726290675}
-  - component: {fileID: 1726290677}
-  - component: {fileID: 1726290676}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1726290675
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726290674}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 2.37, z: -10.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 877681931}
-  m_RootOrder: 6
->>>>>>> parent of 419aa26... Car control overall (AI)
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1726290676
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726290674}
-  m_Enabled: 1
---- !u!20 &1726290677
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1726290674}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 2
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 26.991467
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 2
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!1 &1757945927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,12 +2492,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 =======
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 419aa26... Car control overall (AI)
-=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 --- !u!1 &1995202347
 GameObject:
@@ -2821,9 +2571,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 419aa26... Car control overall (AI)
-=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
