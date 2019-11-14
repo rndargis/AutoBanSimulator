@@ -1,23 +1,46 @@
 using System;
+using UnityStandardAssets.Vehicles.Car;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-namespace UnityStandardAssets.Vehicles.Car
-{
+
+
+
+
+
     [RequireComponent(typeof (CarController))]
     public class CarUserControl : MonoBehaviour
     {
-        private CarController m_Car; // the car controller we want to use
-        public string[] ControlAxis = new string[]{ "Horizontal","Vertical","Jump" };
+        
+        private  CarController m_Car; // the car controller we want to use
+        public   string[] ControlAxis = new string[]{ "Horizontal1","Vertical1","Jump1" };
+        public   Camera camera;
+        public float getMaxSpeed() => m_Car.MaxSpeed;
+        public float getSpeed() => m_Car.CurrentSpeed;
 
+    public CarUserControl(Camera cam = null) 
+    {
+        
+        camera = cam;
+    }
+        
         private void Awake()
         {
             // get the car controller
-            m_Car = GetComponent<CarController>();
+           
         }
 
+    private void Start()
+    {
+        m_Car = GetComponent<CarController>();
+        if (camera == null)
+        {
+            camera = GetComponentInChildren<Camera>();
+        }
+        
+    }
 
-        private void FixedUpdate()
+    private void FixedUpdate()
         {
             // pass the input to the car!
             float h = CrossPlatformInputManager.GetAxis(ControlAxis[0]);
@@ -29,5 +52,6 @@ namespace UnityStandardAssets.Vehicles.Car
             m_Car.Move(h, v, v, 0f);
 #endif
         }
-    }
+      
 }
+
