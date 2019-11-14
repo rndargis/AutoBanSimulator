@@ -167,6 +167,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 51.479923
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
@@ -177,6 +178,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -187.8
 =======
+=======
+>>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
@@ -192,6 +195,9 @@ PrefabInstance:
       value: 43.8
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 419aa26... Car control overall (AI)
+=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
@@ -239,6 +245,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 1
 =======
       value: 0
@@ -266,6 +273,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+>>>>>>> parent of 419aa26... Car control overall (AI)
     - target: {fileID: 100028, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -539,6 +566,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &487809613
 MonoBehaviour:
@@ -554,6 +582,9 @@ MonoBehaviour:
 =======
   m_PrefabAsset: {fileID: 0}
 >>>>>>> parent of 419aa26... Car control overall (AI)
+=======
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of 419aa26... Car control overall (AI)
 --- !u!114 &487809613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,6 +593,9 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 419aa26... Car control overall (AI)
+=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
@@ -585,7 +619,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
@@ -752,8 +789,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &843138390
 =======
+=======
+>>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
@@ -933,7 +973,10 @@ MeshFilter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
@@ -1235,6 +1278,9 @@ MeshFilter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
@@ -1251,6 +1297,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 115512, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 419aa26... Car control overall (AI)
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
@@ -1262,6 +1311,7 @@ PrefabInstance:
     - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 17.101946
       objectReference: {fileID: 0}
     - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
@@ -1271,6 +1321,17 @@ PrefabInstance:
     - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
       propertyPath: m_LocalPosition.z
       value: -163.4204
+=======
+      value: 538.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 341.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47.1
+>>>>>>> parent of 419aa26... Car control overall (AI)
       objectReference: {fileID: 0}
     - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1297,6 +1358,121 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+<<<<<<< HEAD
+=======
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 111398, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 104636, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 126268, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 139396, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5235239235003563718, guid: 7be733fca5977484eab72a8eca73b1b2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3441317863505790765, guid: 7be733fca5977484eab72a8eca73b1b2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411998330755317335, guid: 7be733fca5977484eab72a8eca73b1b2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237218906328989824, guid: 7be733fca5977484eab72a8eca73b1b2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 950149770048113316, guid: 7be733fca5977484eab72a8eca73b1b2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810663152151154159, guid: 7be733fca5977484eab72a8eca73b1b2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8532957547389565481, guid: 7be733fca5977484eab72a8eca73b1b2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+--- !u!1001 &1404601984
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Name
+      value: CarWaypointBased
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 529.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 343.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 100.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+>>>>>>> parent of 419aa26... Car control overall (AI)
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
@@ -2217,6 +2393,7 @@ Transform:
   m_RootOrder: 8
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1749623540
 =======
@@ -2509,6 +2686,8 @@ Transform:
   m_RootOrder: 10
 =======
   m_RootOrder: 8
+=======
+>>>>>>> parent of 419aa26... Car control overall (AI)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1726290674
 GameObject:
@@ -2541,6 +2720,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 877681931}
   m_RootOrder: 6
+<<<<<<< HEAD
+>>>>>>> parent of 419aa26... Car control overall (AI)
+=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &1726290676
@@ -2740,9 +2922,12 @@ Transform:
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 419aa26... Car control overall (AI)
+=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
@@ -2822,6 +3007,9 @@ Transform:
   m_RootOrder: 10
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 419aa26... Car control overall (AI)
+=======
 >>>>>>> parent of 419aa26... Car control overall (AI)
 =======
 >>>>>>> parent of 419aa26... Car control overall (AI)
